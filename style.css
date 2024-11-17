@@ -1,0 +1,56 @@
+@import url(./css/global.css);
+@import url(./css/header.css);
+
+body{
+    background-image: url(./assets/home-bg.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pagina-sem-zoom{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    padding-inline: 7rem;
+    padding-block: 3rem;
+    align-items: flex-start;
+}
+a{
+    transition: 0.2s;
+}
+ a:hover {
+ transform: scale(1.05);
+ text-decoration: underline;
+}
+h1{
+    font-size: 9rem;
+    line-height: 10rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    height: 100%;
+}
+main p{
+    width: 45rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+@media (width > 1366px){
+    #pagina-sem-zoom{
+        width: 136.6rem;
+        height: 76.8rem;
+        align-items: center;
+        padding: 10rem;
+    }
+    main{
+        width: 100%;
+        height: fit-content;
+
+    }
+}

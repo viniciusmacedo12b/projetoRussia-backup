@@ -1,0 +1,182 @@
+@import url(../css/global.css);
+@import url(../css/header.css);
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+header{
+    font-size: 92%;
+    margin-top: 5rem;
+    width: 120rem;
+    font-weight: 100;
+ 
+}
+
+ul{
+    gap: 4rem;
+    margin-right: 6rem;
+}
+#primeira-metade{
+    display: flex;
+    color: var(--branco);
+    height: 130vh;
+    font-weight: 700;
+
+    padding-left: 7rem;
+}
+#primeira-metade p{
+    font-size: 1.4rem;
+}
+#metade-esquerda{
+    padding: 0;
+    height: 100%;
+    width: 60%;
+}
+#centro{
+    height: 100%;
+    width: 133rem;
+}
+#metade-direita{
+    width: 50%;
+    height: 130vh;
+    background-image: url(../assets/historia-bg-filtro.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+}
+#primeira-metade section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+#primeira-metade section{
+    display: flex;
+    gap: 10rem;
+    padding-top: 6rem;
+    flex-direction: column;
+    width: 40%;
+}
+#texto-1{
+    font-size: 9rem;
+}
+#texto-2 h1{
+    font-size: 4rem;
+    width: 51rem;
+}
+#texto-2 p{
+    letter-spacing: 0.03rem;
+    line-height: 2rem;
+    min-width: 60rem;
+    font-size: 1.4rem;
+    font-size: 90%;
+}
+p, h1{
+    margin: 0;
+}
+#texto p{
+    font-size: 90%;
+    width: 44rem;
+}
+#segundo-terco{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--branco-escuro);
+}
+#segundo-terco > div{
+    width: 120rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 90%;
+}
+.historia-1{
+    display: flex;
+    gap: 8rem;
+}
+.historia-1 img{
+    height: 30rem;
+    width: 50rem;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.texts h2{
+    width: 58rem;
+    font-size: 4rem;
+    color: var(--cor-de-fundo);
+}
+.texts p{
+    font-weight: 700;
+    color: var(--cor-de-fundo);
+    line-height: 2.3rem;
+}
+#terceiro-terco{
+    height: 85vh;
+    padding-inline: 7rem;
+    padding-block: 5rem;
+    color: var(--branco);
+}
+#terceiro-terco div p{
+    width: 55%;
+    font-family: 'Arial', Helvetica, sans-serif;
+    line-height: 2.2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+#terceiro-terco div{
+    display: flex;
+    flex-direction: column;
+    gap: 4.7rem;
+}
+#terceiro-terco div h1{
+    font-size: 4rem;
+}
+a{
+    transition: 0.2s;
+}
+ a:hover {
+ transform: scale(1.05);
+ text-decoration: underline;
+}
+.negrito{
+    font-weight: bold;
+    font-family: "League Spartan", sans-serif;
+}
+@media (width > 1536px){
+
+    #primeira-metade{
+        justify-content: center;
+        height: 76.8rem;
+        padding-bottom: 7.6rem;
+    }
+    #segundo-terco{
+        height: 76.8rem;
+    }
+    #terceiro-terco{
+        height: 52.9rem;
+        display: flex;
+        justify-content: center;
+    }
+    #primeira-metade{
+        justify-content: center;
+    }
+    #centro{
+        width: 133.6rem;
+    }
+    #metade-direita{
+        width: 68.3rem;
+        height: 76.8rem;
+    }
+    #terceiro-terco div{
+        width: 126rem;
+    }
+    #segundo-terco div{
+        width: 121.2rem;
+    }
+}

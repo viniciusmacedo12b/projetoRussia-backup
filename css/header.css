@@ -1,0 +1,39 @@
+ul{
+    display: flex;
+    gap: 5rem;
+}
+header{
+margin-inline: auto;
+margin-top: 2rem;
+display: flex;
+flex-direction: column;
+gap: 0.4rem;
+filter: brightness(110%);
+width: 100%;
+}
+header img{
+    width: 12rem;
+}
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.6rem;
+}
+li{
+    list-style: none;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+#flex{
+    display: flex;
+}

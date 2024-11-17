@@ -1,0 +1,202 @@
+@import url(../css/global.css);
+@import url(../css/header.css);
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+header{
+    font-size: 92%;
+    margin-top: 5rem;
+    width: 120rem;
+    font-weight: 100;
+ 
+}
+a{
+    transition: 0.2s;
+}
+ a:hover {
+ transform: scale(1.05);
+}
+ul{
+    gap: 4rem;
+    margin-right: 6rem;
+}
+#primeira-metade{
+    display: flex;
+    color: var(--branco);
+    height: 130vh;
+    font-weight: 700;
+    padding-left: 7rem;
+}
+#primeira-metade p{
+    font-size: 1.4rem;
+}
+#metade-esquerda{
+    padding: 0;
+    height: 100%;
+    width: 60%;
+}
+#centro{
+    height: 100%;
+    width: 133rem;
+}
+#metade-direita{
+    width: 49.3rem;
+    height: 130vh;
+    background-image: url(../assets/cultura-bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 63.4%;
+}
+#primeira-metade section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+#primeira-metade section{
+    display: flex;
+    gap: 10rem;
+    padding-top: 6rem;
+    flex-direction: column;
+    width: 40%;
+}
+#texto-1{
+    font-size: 9rem;
+}
+#texto-2 h1{
+    font-size: 4rem;
+    width: 51rem;
+}
+#texto-2 p{
+    letter-spacing: 0.03rem;
+    line-height: 2rem;
+    min-width: 60rem;
+    font-size: 1.4rem;
+    font-size: 90%;
+}
+p, h1{
+    margin: 0;
+}
+#texto p{
+    font-size: 90%;
+    width: 44rem;
+}
+#segundo-terco{
+    height: 74.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--branco-escuro);
+}
+#segundo-terco > div{
+    width: 120rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 90%;
+}
+#segundo-terco > div h2{
+    font-size: 4.5rem;
+}
+#segundo-terco > div > div{
+    display: flex;
+    gap: 6.4rem;
+}
+#segundo-terco > div > div > div > img{
+    height: 42rem;
+    width: 33.9rem;
+    border-radius: 1.6rem;
+}
+#segundo-terco > div > div > div a{
+    color: var(--cor-de-fundo);
+    width: fit-content;
+}
+#segundo-terco > div p{
+    line-height: 2rem;
+}
+div > div > div a:hover{
+ text-decoration: underline;
+}
+#segundo-terco > div > div > div {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+#terceiro-terco{
+    height: 66.8rem;
+    padding-inline: 7rem;
+    padding-block: 5rem;
+    color: var(--branco);
+}
+#terceiro-terco div h2{
+    font-size: 4.5rem;
+}
+#terceiro-terco div > div img{
+    width: 21rem;
+    height: 19.4rem;
+    border-radius: 1.6rem;
+}
+#terceiro-terco > div > div{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    gap: 3.1rem;
+}
+#terceiro-terco > div > div p{
+    width: 66.4rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+#texts{
+    width: 100%;
+    font-family: 'Arial', Helvetica, sans-serif;
+    line-height: 2.2rem;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+#terceiro-terco > div{
+    display: flex;
+    flex-direction: column;
+    gap: 4.7rem;
+    padding-bottom: 2.5rem;
+}
+#culinaria{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100rem;
+}
+@media (width > 1536px){
+
+    #primeira-metade{
+        justify-content: center;
+        height: 76.8rem;
+        padding-bottom: 7.6rem;
+    }
+    #segundo-terco{
+        height: 76.8rem;
+    }
+    #terceiro-terco{
+        height: 52.9rem;
+        display: flex;
+        justify-content: center;
+    }
+    #primeira-metade{
+        justify-content: center;
+    }
+    #centro{
+        width: 133.6rem;
+    }
+    #metade-direita{
+        width: 68.3rem;
+        height: 76.8rem;
+    }
+    #terceiro-terco div{
+        width: 126rem;
+    }
+    #segundo-terco div{
+        width: 121.2rem;
+    }
+}
